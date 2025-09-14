@@ -57,8 +57,8 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build --sourcemap",
-    "serve": "vite preview"
+    "build": "tsc && vite build",
+    "serve": "vite preview --port 3000"
   },
   "eslintConfig": {
     "extends": [
