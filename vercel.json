@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build && npm start",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
   "public": true,
   "cleanUrls": true,
@@ -53,8 +53,8 @@
   ],
   "redirects": [
     {
-      "source": "/blog",
-      "destination": "/posts",
+      "source": "/homepage",
+      "destination": "/topic-universes",
       "permanent": true
     }
   ]
